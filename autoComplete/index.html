@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>邮箱自动补全</title>
+	<link rel="stylesheet" type="text/css" href="autoComplete.css" media="all"/>
+</head>
+<body>
+	<h1>邮箱自动补全 + 上下翻动</h1>
+	<p>当在输入框内输入 @ 时，自动显示各个邮箱的下拉列表。</p>
+	<div class="wrap">
+		<input type="text" name="email" id="email"/>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.autoComplete.js"></script>
+<script type="text/javascript">
+$(function(){
+	$.AutoComplete('#email');
+});
+</script>
