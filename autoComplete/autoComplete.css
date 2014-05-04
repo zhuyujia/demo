@@ -2,7 +2,7 @@
 .wrap{width:200px;margin:0 auto;}
 h1{font-size:36px;text-align:center;line-height:60px;}
 p{font-size:20px;text-align:center;line-height:60px;}
-#email{width:190px;border:1px solid #ccc;border-radius:5px;height:30px;line-height:30px;padding:5px;}
+.inp{width:190px;border:1px solid #ccc;border-radius:5px;height:30px;line-height:30px;padding:5px;}
 
 #AutoComplete{background:#fff;border:1px solid #4190db;display:none;width:200px;}
 #AutoComplete ul{list-style-type:none;margin:0;padding:0;}

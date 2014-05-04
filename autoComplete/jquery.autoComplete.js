@@ -12,6 +12,7 @@ jQuery.AutoComplete = function(selector){
 	strHtml.push('		<li hz="@sina.com"></li>');
 	strHtml.push('	</ul>');
 	strHtml.push('</div>');
+	
 	$('body').append(strHtml.join(''));
 	
 	autoComplete = $('#AutoComplete');
@@ -62,6 +63,7 @@ jQuery.AutoComplete = function(selector){
 			autoLi.filter('.hover').next().addClass('hover').prev().removeClass('hover');
 		}else if(e.keyCode == 13){ //Enter
 			autoLi.filter('.hover').mousedown();
+			e.preventDefault();	//如有表单，阻止表单提交
 		}
 	}).focus(function(){
 		autoComplete.data('elt',$(this));

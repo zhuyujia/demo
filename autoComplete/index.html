@@ -9,7 +9,11 @@
 	<h1>邮箱自动补全 + 上下翻动</h1>
 	<p>当在输入框内输入 @ 时，自动显示各个邮箱的下拉列表。</p>
 	<div class="wrap">
-		<input type="text" name="email" id="email"/>
+		<form action="result.php" method="post">
+			<input type="text" name="email" id="email" class="inp" autocomplete="off"/><br/><br/>
+			<input type="text" name="other" class="inp" autocomplete="off"/><br/><br/>
+			<input type="submit" value="提交表单" id="submit"/>
+		</form>
 	</div>
 </body>
 </html>
