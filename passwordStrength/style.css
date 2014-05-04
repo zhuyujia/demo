@@ -1,0 +1,5 @@
+@charset 'utf-8';
+#passStrength{height:6px;width:120px;border:1px solid #ccc;padding:2px;}
+.strengthLv1{background:red;height:6px;width:40px;}
+.strengthLv2{background:orange;height:6px;width:80px;}
+.strengthLv3{background:green;height:6px;width:120px;}

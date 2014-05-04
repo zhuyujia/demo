@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>密码强度</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+</head>
+<body>
+    <input type="password" name="pass" id="pass" maxlength="16"/>
+    <div class="pass-wrap">
+        <em>密码强度：</em>
+        <div id="passStrength"></div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="passwordStrength.js"></script>
+<script type="text/javascript">
+new PasswordStrength('pass','passStrength');
+</script>
