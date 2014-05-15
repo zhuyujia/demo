@@ -9,10 +9,10 @@
 </body>
 </html>
 <script type="text/javascript">
-function setHome(_obj,_url){
+function setHome(obj,url){
 	try{
-		_obj.style.behavior = 'url(#default#homepage)';
-		_obj.setHomePage(_url);
+		obj.style.behavior = 'url(#default#homepage)';
+		obj.setHomePage(url);
 	}catch(e){
 		if(window.netscape){
 			try{
@@ -20,10 +20,10 @@ function setHome(_obj,_url){
 			}catch(e){
 				alert('抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车\n\n然后将[signed.applets.codebase_principal_support]的值设置为true，双击即可。');
 			}
-			var _prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
-			_prefs.setCharPref('browser.startup.homepage',_url);
+			var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+			prefs.setCharPref('browser.startup.homepage',url);
 		}else{
-			alert('抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【' + _url + '】设置为首页。');
+			alert('抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【' + url + '】设置为首页。');
 		}
 	}
 }
