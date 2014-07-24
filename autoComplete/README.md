@@ -1,4 +1,5 @@
-autoComplete
-====
-名称：邮箱补全 + 上下翻动<br/>
-用法：$.AutoComplete('#email');
+# 邮箱补全 + 上下翻动
+
+** 使用方法：** $.AutoComplete(id)
+
+** 参数说明：** 输入文本的 id
