@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>许愿墙</title>
+	<link rel="stylesheet" href="base.min.css"/>
+	<style>
+	#wish{height:650px;margin:20px;position:relative;width:960px;}
+	.wish{background:url(wish_bg.png) no-repeat 0 0;color:#000;height:166px;padding:10px 20px 30px 20px;width:185px;}
+	.wish-close{background:url(wish_close_bg.png) no-repeat 0 0;display:none;position:absolute;right:5px;top:-5px;width:17px;height:17px;}
+	</style>
+</head>
+<body>
+	<ul id="wish">
+		<li>11111</li>
+		<li>22222</li>
+		<li>33333</li>
+		<li>44444</li>
+		<li>55555</li>
+	</ul>
+</body>
+</html>
+<script src="jquery.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wish.js"></script>
+<script>
+$(function(){
+	$('#wish').wish();
+	$('.wish').draggable({containment:'#wish',scroll:false});
+});
+</script>

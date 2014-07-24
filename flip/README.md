@@ -12,4 +12,6 @@
 - onAnimation：设置翻转到一半的时候需要执行的内容
 - onEnd：设置翻转完成后需要执行的内容
 
+[具体使用请点击此处](http://www.cnblogs.com/yjzhu/p/3863670.html)
+
 [点击进入官方地址](http://lab.smashup.it/flip/)

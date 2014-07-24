@@ -29,3 +29,6 @@
 - [flip](https://github.com/zhuyujia/demo/tree/master/flip)
 	- **名称：** 基于 jquery 的翻牌效果
 	- **使用方法：** $('selector').flip(opts)
+- [wish](https://github.com/zhuyujia/demo/tree/master/wish)
+	- **名称：** jquery 实现许愿墙效果，支持拖拽
+	- **使用方法：** $('selector').wish();
