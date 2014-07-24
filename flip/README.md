@@ -1,8 +1,8 @@
 # 基于 jquery 的翻牌效果
 
-** 使用方法：** $('selector').flip(opts)
+**使用方法：** $('selector').flip(opts)
 
-** 参数说明：**
+**参数说明：**
 
 - direction：翻转方向，总共有 4 个值（tb、bt、lr、rl），默认 tb
 - content：设置翻转后容器内显示的内容，可以是文本，可以是 html，甚至可以是 jquery 对象
