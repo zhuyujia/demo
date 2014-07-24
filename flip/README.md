@@ -11,3 +11,5 @@
 - onBefore：设置翻转前需要执行的内容
 - onAnimation：设置翻转到一半的时候需要执行的内容
 - onEnd：设置翻转完成后需要执行的内容
+
+[点击进入官方地址](http://lab.smashup.it/flip/)
